@@ -3,11 +3,17 @@
 </script>
 
 <template>
-  
-  <el-button type="success">成功按钮</el-button>
+  <RouterView />
+  <div class="test">
+
+    test scss
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test{
+  color: $priceColor;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
