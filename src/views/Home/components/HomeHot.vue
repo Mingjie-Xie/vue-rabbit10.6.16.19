@@ -19,7 +19,7 @@ onMounted(() => getHotList())
           <RouterLink to="/">
             <img v-img-lazy="item.picture" alt="">
             <p class="name">{{ item.title }}</p>
-            <p class="desc">{{ item.alt }}</p>
+            <p class="desc">{{ item.alt }}</p> 
           </RouterLink>
         </li>
       </ul>
