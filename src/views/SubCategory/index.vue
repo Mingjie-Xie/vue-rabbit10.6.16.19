@@ -70,9 +70,9 @@ onMounted(() =>getGoodList())
       <div class="body" v-infinite-scroll="load" :infinite-scroll-disabled="disabled">
          <!-- 商品列表-->
 
-         <!-- <GoodsItem v-for="goods is goList" :goods="goods" :key="goods.id" /> -->
+         <GoodsItem v-for="goods in goodList" :goods="goods" :key="goods.id" />
 
-         <GoodsItem v-for="(goods, index) in goodList" :key="index" :goods="goods" />
+         <!-- <GoodsItem v-for="(goods, index) in goodList" :key="index" :goods="goods" /> -->
 
          
       </div>
