@@ -12,8 +12,8 @@ import { useUserStore } from '../../stores/user'
 const userStore = useUserStore()
 
 const form =  ref({
-  account: '',
-  password: '',
+  account: 'xiaotuxian001',
+  password: '123456',
   agree: true
 }) 
 
